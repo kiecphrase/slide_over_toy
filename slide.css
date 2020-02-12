@@ -53,14 +53,16 @@
 
 .hype{
   z-index: 10;
-  display: none;
   position: absolute;
   margin-left: 2px;
   margin-top: 2px;
-  width: 450px;
-  height: 700px;
+  width: 1px;
+  height: 1px;
   background-color: #ffccbc;
   border: solid 2px #eeeeee;
+  transition: width 0.15s, height 0.15s;
+  transition-timing-function: ease-out;
+
 }
 
 .hype-alt{
@@ -73,6 +75,8 @@
   height: 850px;
   background-color: #ffccbc;
   border: solid 2px #eeeeee;
+  transition: width 0.15s, height 0.15s;
+  transition-timing-function: ease-out;
 
 }
 
@@ -86,6 +90,8 @@
   height: 250px;
   background-color: #ffccbc;
   border: solid 2px #eeeeee;
+  transition: width 0.5s, height 0.5s;
+  transition-timing-function: ease-out;
 }
 
 .hype-big{
@@ -98,14 +104,22 @@
   height: 92%;
   background-color: #ffccbc;
   border: solid 2px #eeeeee;
+  transition: width 0.5s, height 0.5s;
+  transition-timing-function: ease-out;
 }
 
 .filler {
   width: 95%;
   height: 80%;
-
 }
 
 .bb {
   font-size: 0.8rem;
+}
+
+.hider{
+  display: none;
+}
+.hider-alt{
+  display: block;
 }

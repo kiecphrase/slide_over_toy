@@ -1,5 +1,6 @@
 $("#toggler").on("click", function() {
   $("#side_pannel").toggleClass("hype-alt", "hype");
+  $("#this_hides_things").toggleClass("hider-alt", "hider");
 });
 
 $("#wide").on("click", function() {
